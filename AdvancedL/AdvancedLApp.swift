@@ -11,7 +11,7 @@ import SwiftUI
 struct AdvancedLApp: App {
     var body: some Scene {
         WindowGroup {
-            ButtonStyleAL()
+            AnyTransitionAL()
         }
     }
 }
