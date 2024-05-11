@@ -17,6 +17,7 @@
 		D63AA2E82BEFDAB4006471F0 /* MatchedGeometryEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6943C4E2BEFCD1D001D04E0 /* MatchedGeometryEffect.swift */; };
 		D63AA2E92BEFDAB4006471F0 /* ViewModifierAL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6943C492BEFCD1D001D04E0 /* ViewModifierAL.swift */; };
 		D63AA2EA2BEFDAB4006471F0 /* GenericsAL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63AA2D92BEFCE52006471F0 /* GenericsAL.swift */; };
+		D63AA3092BEFEFF6006471F0 /* ViewBuilderAL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63AA3082BEFEFF6006471F0 /* ViewBuilderAL.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		D600F3B32BE909050057C287 /* AdvancedL.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AdvancedL.entitlements; sourceTree = "<group>"; };
 		D600F3B52BE909050057C287 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D63AA2D92BEFCE52006471F0 /* GenericsAL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericsAL.swift; sourceTree = "<group>"; };
+		D63AA3082BEFEFF6006471F0 /* ViewBuilderAL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilderAL.swift; sourceTree = "<group>"; };
 		D6943C492BEFCD1D001D04E0 /* ViewModifierAL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModifierAL.swift; sourceTree = "<group>"; };
 		D6943C4B2BEFCD1D001D04E0 /* CustomShapesAL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomShapesAL.swift; sourceTree = "<group>"; };
 		D6943C4C2BEFCD1D001D04E0 /* ButtonStyleAL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonStyleAL.swift; sourceTree = "<group>"; };
@@ -71,10 +73,11 @@
 				D6943C4B2BEFCD1D001D04E0 /* CustomShapesAL.swift */,
 				D6943C4E2BEFCD1D001D04E0 /* MatchedGeometryEffect.swift */,
 				D6943C492BEFCD1D001D04E0 /* ViewModifierAL.swift */,
+				D63AA2D92BEFCE52006471F0 /* GenericsAL.swift */,
 				D600F3B12BE909050057C287 /* Assets.xcassets */,
 				D600F3B32BE909050057C287 /* AdvancedL.entitlements */,
 				D600F3B42BE909050057C287 /* Preview Content */,
-				D63AA2D92BEFCE52006471F0 /* GenericsAL.swift */,
+				D63AA3082BEFEFF6006471F0 /* ViewBuilderAL.swift */,
 			);
 			path = AdvancedL;
 			sourceTree = "<group>";
@@ -158,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D63AA2E32BEFDAB4006471F0 /* AdvancedLApp.swift in Sources */,
+				D63AA3092BEFEFF6006471F0 /* ViewBuilderAL.swift in Sources */,
 				D63AA2E42BEFDAB4006471F0 /* AnyTransitionAL.swift in Sources */,
 				D63AA2E52BEFDAB4006471F0 /* ButtonStyleAL.swift in Sources */,
 				D63AA2E62BEFDAB4006471F0 /* ContentView.swift in Sources */,
