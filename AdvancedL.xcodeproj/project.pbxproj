@@ -7,11 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D600F3AE2BE909040057C287 /* AdvancedLApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D600F3AD2BE909040057C287 /* AdvancedLApp.swift */; };
 		D600F3B22BE909050057C287 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D600F3B12BE909050057C287 /* Assets.xcassets */; };
 		D600F3B62BE909050057C287 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D600F3B52BE909050057C287 /* Preview Assets.xcassets */; };
-		D600F3BF2BE914BE0057C287 /* ViewModifierAL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D600F3BE2BE914BE0057C287 /* ViewModifierAL.swift */; };
-		D600F3C12BE91AF80057C287 /* ButtonStyleAL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D600F3C02BE91AF80057C287 /* ButtonStyleAL.swift */; };
+		D63AA2E32BEFDAB4006471F0 /* AdvancedLApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D600F3AD2BE909040057C287 /* AdvancedLApp.swift */; };
+		D63AA2E42BEFDAB4006471F0 /* AnyTransitionAL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6943C4D2BEFCD1D001D04E0 /* AnyTransitionAL.swift */; };
+		D63AA2E52BEFDAB4006471F0 /* ButtonStyleAL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6943C4C2BEFCD1D001D04E0 /* ButtonStyleAL.swift */; };
+		D63AA2E62BEFDAB4006471F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6943C4F2BEFCD1D001D04E0 /* ContentView.swift */; };
+		D63AA2E72BEFDAB4006471F0 /* CustomShapesAL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6943C4B2BEFCD1D001D04E0 /* CustomShapesAL.swift */; };
+		D63AA2E82BEFDAB4006471F0 /* MatchedGeometryEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6943C4E2BEFCD1D001D04E0 /* MatchedGeometryEffect.swift */; };
+		D63AA2E92BEFDAB4006471F0 /* ViewModifierAL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6943C492BEFCD1D001D04E0 /* ViewModifierAL.swift */; };
+		D63AA2EA2BEFDAB4006471F0 /* GenericsAL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63AA2D92BEFCE52006471F0 /* GenericsAL.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,8 +25,13 @@
 		D600F3B12BE909050057C287 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D600F3B32BE909050057C287 /* AdvancedL.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AdvancedL.entitlements; sourceTree = "<group>"; };
 		D600F3B52BE909050057C287 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		D600F3BE2BE914BE0057C287 /* ViewModifierAL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierAL.swift; sourceTree = "<group>"; };
-		D600F3C02BE91AF80057C287 /* ButtonStyleAL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyleAL.swift; sourceTree = "<group>"; };
+		D63AA2D92BEFCE52006471F0 /* GenericsAL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericsAL.swift; sourceTree = "<group>"; };
+		D6943C492BEFCD1D001D04E0 /* ViewModifierAL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModifierAL.swift; sourceTree = "<group>"; };
+		D6943C4B2BEFCD1D001D04E0 /* CustomShapesAL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomShapesAL.swift; sourceTree = "<group>"; };
+		D6943C4C2BEFCD1D001D04E0 /* ButtonStyleAL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonStyleAL.swift; sourceTree = "<group>"; };
+		D6943C4D2BEFCD1D001D04E0 /* AnyTransitionAL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyTransitionAL.swift; sourceTree = "<group>"; };
+		D6943C4E2BEFCD1D001D04E0 /* MatchedGeometryEffect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchedGeometryEffect.swift; sourceTree = "<group>"; };
+		D6943C4F2BEFCD1D001D04E0 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +65,16 @@
 			isa = PBXGroup;
 			children = (
 				D600F3AD2BE909040057C287 /* AdvancedLApp.swift */,
+				D6943C4D2BEFCD1D001D04E0 /* AnyTransitionAL.swift */,
+				D6943C4C2BEFCD1D001D04E0 /* ButtonStyleAL.swift */,
+				D6943C4F2BEFCD1D001D04E0 /* ContentView.swift */,
+				D6943C4B2BEFCD1D001D04E0 /* CustomShapesAL.swift */,
+				D6943C4E2BEFCD1D001D04E0 /* MatchedGeometryEffect.swift */,
+				D6943C492BEFCD1D001D04E0 /* ViewModifierAL.swift */,
 				D600F3B12BE909050057C287 /* Assets.xcassets */,
 				D600F3B32BE909050057C287 /* AdvancedL.entitlements */,
 				D600F3B42BE909050057C287 /* Preview Content */,
-				D600F3BE2BE914BE0057C287 /* ViewModifierAL.swift */,
-				D600F3C02BE91AF80057C287 /* ButtonStyleAL.swift */,
+				D63AA2D92BEFCE52006471F0 /* GenericsAL.swift */,
 			);
 			path = AdvancedL;
 			sourceTree = "<group>";
@@ -142,9 +157,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D600F3BF2BE914BE0057C287 /* ViewModifierAL.swift in Sources */,
-				D600F3AE2BE909040057C287 /* AdvancedLApp.swift in Sources */,
-				D600F3C12BE91AF80057C287 /* ButtonStyleAL.swift in Sources */,
+				D63AA2E32BEFDAB4006471F0 /* AdvancedLApp.swift in Sources */,
+				D63AA2E42BEFDAB4006471F0 /* AnyTransitionAL.swift in Sources */,
+				D63AA2E52BEFDAB4006471F0 /* ButtonStyleAL.swift in Sources */,
+				D63AA2E62BEFDAB4006471F0 /* ContentView.swift in Sources */,
+				D63AA2E72BEFDAB4006471F0 /* CustomShapesAL.swift in Sources */,
+				D63AA2E82BEFDAB4006471F0 /* MatchedGeometryEffect.swift in Sources */,
+				D63AA2E92BEFDAB4006471F0 /* ViewModifierAL.swift in Sources */,
+				D63AA2EA2BEFDAB4006471F0 /* GenericsAL.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +297,8 @@
 				DEVELOPMENT_TEAM = A64NZ37MJD;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				EXCLUDED_ARCHS = arm64;
+				"EXCLUDED_ARCHS[sdk=*]" = arm64;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
@@ -315,6 +337,8 @@
 				DEVELOPMENT_TEAM = A64NZ37MJD;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				EXCLUDED_ARCHS = arm64;
+				"EXCLUDED_ARCHS[sdk=*]" = arm64;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
