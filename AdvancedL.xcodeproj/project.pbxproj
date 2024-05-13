@@ -18,6 +18,8 @@
 		D63AA2E92BEFDAB4006471F0 /* ViewModifierAL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6943C492BEFCD1D001D04E0 /* ViewModifierAL.swift */; };
 		D63AA2EA2BEFDAB4006471F0 /* GenericsAL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63AA2D92BEFCE52006471F0 /* GenericsAL.swift */; };
 		D63AA3092BEFEFF6006471F0 /* ViewBuilderAL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63AA3082BEFEFF6006471F0 /* ViewBuilderAL.swift */; };
+		D6611B132BF252BF006D9A38 /* ScrollViewOffsetPreferenceKeyAL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6611B122BF252BF006D9A38 /* ScrollViewOffsetPreferenceKeyAL.swift */; };
+		D68599642BF125F00030F760 /* GeometryPreferenceKeyAL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68599632BF125F00030F760 /* GeometryPreferenceKeyAL.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		D600F3B52BE909050057C287 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D63AA2D92BEFCE52006471F0 /* GenericsAL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericsAL.swift; sourceTree = "<group>"; };
 		D63AA3082BEFEFF6006471F0 /* ViewBuilderAL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilderAL.swift; sourceTree = "<group>"; };
+		D6611B122BF252BF006D9A38 /* ScrollViewOffsetPreferenceKeyAL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewOffsetPreferenceKeyAL.swift; sourceTree = "<group>"; };
+		D68599632BF125F00030F760 /* GeometryPreferenceKeyAL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryPreferenceKeyAL.swift; sourceTree = "<group>"; };
 		D6943C492BEFCD1D001D04E0 /* ViewModifierAL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModifierAL.swift; sourceTree = "<group>"; };
 		D6943C4B2BEFCD1D001D04E0 /* CustomShapesAL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomShapesAL.swift; sourceTree = "<group>"; };
 		D6943C4C2BEFCD1D001D04E0 /* ButtonStyleAL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonStyleAL.swift; sourceTree = "<group>"; };
@@ -78,6 +82,7 @@
 				D600F3B32BE909050057C287 /* AdvancedL.entitlements */,
 				D600F3B42BE909050057C287 /* Preview Content */,
 				D63AA3082BEFEFF6006471F0 /* ViewBuilderAL.swift */,
+				D6EFDB912BF24B5F00D9FDF5 /* PreferenceKey */,
 			);
 			path = AdvancedL;
 			sourceTree = "<group>";
@@ -88,6 +93,15 @@
 				D600F3B52BE909050057C287 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D6EFDB912BF24B5F00D9FDF5 /* PreferenceKey */ = {
+			isa = PBXGroup;
+			children = (
+				D68599632BF125F00030F760 /* GeometryPreferenceKeyAL.swift */,
+				D6611B122BF252BF006D9A38 /* ScrollViewOffsetPreferenceKeyAL.swift */,
+			);
+			path = PreferenceKey;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,6 +175,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D63AA2E32BEFDAB4006471F0 /* AdvancedLApp.swift in Sources */,
+				D68599642BF125F00030F760 /* GeometryPreferenceKeyAL.swift in Sources */,
+				D6611B132BF252BF006D9A38 /* ScrollViewOffsetPreferenceKeyAL.swift in Sources */,
 				D63AA3092BEFEFF6006471F0 /* ViewBuilderAL.swift in Sources */,
 				D63AA2E42BEFDAB4006471F0 /* AnyTransitionAL.swift in Sources */,
 				D63AA2E52BEFDAB4006471F0 /* ButtonStyleAL.swift in Sources */,
