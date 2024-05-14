@@ -18,8 +18,13 @@
 		D63AA2E92BEFDAB4006471F0 /* ViewModifierAL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6943C492BEFCD1D001D04E0 /* ViewModifierAL.swift */; };
 		D63AA2EA2BEFDAB4006471F0 /* GenericsAL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63AA2D92BEFCE52006471F0 /* GenericsAL.swift */; };
 		D63AA3092BEFEFF6006471F0 /* ViewBuilderAL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63AA3082BEFEFF6006471F0 /* ViewBuilderAL.swift */; };
+		D63F5EF92BF294B2009A3E01 /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63F5EF82BF294B2009A3E01 /* CustomTabBarView.swift */; };
 		D6611B132BF252BF006D9A38 /* ScrollViewOffsetPreferenceKeyAL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6611B122BF252BF006D9A38 /* ScrollViewOffsetPreferenceKeyAL.swift */; };
+		D6611B162BF288D1006D9A38 /* AppTabBarAL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6611B152BF288D1006D9A38 /* AppTabBarAL.swift */; };
 		D68599642BF125F00030F760 /* GeometryPreferenceKeyAL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68599632BF125F00030F760 /* GeometryPreferenceKeyAL.swift */; };
+		D6CF851E2BF38B7600CC9C4B /* CustomTabBarContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CF851D2BF38B7600CC9C4B /* CustomTabBarContainerView.swift */; };
+		D6CF85202BF392C400CC9C4B /* TabBarItemsPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CF851F2BF392C400CC9C4B /* TabBarItemsPreferenceKey.swift */; };
+		D6CF85222BF3A15200CC9C4B /* TabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CF85212BF3A15200CC9C4B /* TabBarItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,7 +35,9 @@
 		D600F3B52BE909050057C287 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D63AA2D92BEFCE52006471F0 /* GenericsAL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericsAL.swift; sourceTree = "<group>"; };
 		D63AA3082BEFEFF6006471F0 /* ViewBuilderAL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilderAL.swift; sourceTree = "<group>"; };
+		D63F5EF82BF294B2009A3E01 /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
 		D6611B122BF252BF006D9A38 /* ScrollViewOffsetPreferenceKeyAL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewOffsetPreferenceKeyAL.swift; sourceTree = "<group>"; };
+		D6611B152BF288D1006D9A38 /* AppTabBarAL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabBarAL.swift; sourceTree = "<group>"; };
 		D68599632BF125F00030F760 /* GeometryPreferenceKeyAL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryPreferenceKeyAL.swift; sourceTree = "<group>"; };
 		D6943C492BEFCD1D001D04E0 /* ViewModifierAL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModifierAL.swift; sourceTree = "<group>"; };
 		D6943C4B2BEFCD1D001D04E0 /* CustomShapesAL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomShapesAL.swift; sourceTree = "<group>"; };
@@ -38,6 +45,9 @@
 		D6943C4D2BEFCD1D001D04E0 /* AnyTransitionAL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyTransitionAL.swift; sourceTree = "<group>"; };
 		D6943C4E2BEFCD1D001D04E0 /* MatchedGeometryEffect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchedGeometryEffect.swift; sourceTree = "<group>"; };
 		D6943C4F2BEFCD1D001D04E0 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D6CF851D2BF38B7600CC9C4B /* CustomTabBarContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarContainerView.swift; sourceTree = "<group>"; };
+		D6CF851F2BF392C400CC9C4B /* TabBarItemsPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItemsPreferenceKey.swift; sourceTree = "<group>"; };
+		D6CF85212BF3A15200CC9C4B /* TabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,11 +88,12 @@
 				D6943C4E2BEFCD1D001D04E0 /* MatchedGeometryEffect.swift */,
 				D6943C492BEFCD1D001D04E0 /* ViewModifierAL.swift */,
 				D63AA2D92BEFCE52006471F0 /* GenericsAL.swift */,
+				D63AA3082BEFEFF6006471F0 /* ViewBuilderAL.swift */,
+				D6611B142BF288C2006D9A38 /* CustomTabBar */,
+				D6EFDB912BF24B5F00D9FDF5 /* PreferenceKey */,
 				D600F3B12BE909050057C287 /* Assets.xcassets */,
 				D600F3B32BE909050057C287 /* AdvancedL.entitlements */,
 				D600F3B42BE909050057C287 /* Preview Content */,
-				D63AA3082BEFEFF6006471F0 /* ViewBuilderAL.swift */,
-				D6EFDB912BF24B5F00D9FDF5 /* PreferenceKey */,
 			);
 			path = AdvancedL;
 			sourceTree = "<group>";
@@ -93,6 +104,18 @@
 				D600F3B52BE909050057C287 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D6611B142BF288C2006D9A38 /* CustomTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				D6611B152BF288D1006D9A38 /* AppTabBarAL.swift */,
+				D63F5EF82BF294B2009A3E01 /* CustomTabBarView.swift */,
+				D6CF851D2BF38B7600CC9C4B /* CustomTabBarContainerView.swift */,
+				D6CF851F2BF392C400CC9C4B /* TabBarItemsPreferenceKey.swift */,
+				D6CF85212BF3A15200CC9C4B /* TabBarItem.swift */,
+			);
+			path = CustomTabBar;
 			sourceTree = "<group>";
 		};
 		D6EFDB912BF24B5F00D9FDF5 /* PreferenceKey */ = {
@@ -176,15 +199,20 @@
 			files = (
 				D63AA2E32BEFDAB4006471F0 /* AdvancedLApp.swift in Sources */,
 				D68599642BF125F00030F760 /* GeometryPreferenceKeyAL.swift in Sources */,
+				D6611B162BF288D1006D9A38 /* AppTabBarAL.swift in Sources */,
+				D63F5EF92BF294B2009A3E01 /* CustomTabBarView.swift in Sources */,
 				D6611B132BF252BF006D9A38 /* ScrollViewOffsetPreferenceKeyAL.swift in Sources */,
 				D63AA3092BEFEFF6006471F0 /* ViewBuilderAL.swift in Sources */,
+				D6CF85222BF3A15200CC9C4B /* TabBarItem.swift in Sources */,
 				D63AA2E42BEFDAB4006471F0 /* AnyTransitionAL.swift in Sources */,
 				D63AA2E52BEFDAB4006471F0 /* ButtonStyleAL.swift in Sources */,
 				D63AA2E62BEFDAB4006471F0 /* ContentView.swift in Sources */,
+				D6CF85202BF392C400CC9C4B /* TabBarItemsPreferenceKey.swift in Sources */,
 				D63AA2E72BEFDAB4006471F0 /* CustomShapesAL.swift in Sources */,
 				D63AA2E82BEFDAB4006471F0 /* MatchedGeometryEffect.swift in Sources */,
 				D63AA2E92BEFDAB4006471F0 /* ViewModifierAL.swift in Sources */,
 				D63AA2EA2BEFDAB4006471F0 /* GenericsAL.swift in Sources */,
+				D6CF851E2BF38B7600CC9C4B /* CustomTabBarContainerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
