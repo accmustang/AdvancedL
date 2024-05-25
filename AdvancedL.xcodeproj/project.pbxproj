@@ -28,6 +28,7 @@
 		D66386212BF3EF7E003C8F44 /* CustomNavLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66386202BF3EF7E003C8F44 /* CustomNavLink.swift */; };
 		D66386232BF3F2BE003C8F44 /* CustomNavBarReferenceKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66386222BF3F2BE003C8F44 /* CustomNavBarReferenceKeys.swift */; };
 		D68599642BF125F00030F760 /* GeometryPreferenceKeyAL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68599632BF125F00030F760 /* GeometryPreferenceKeyAL.swift */; };
+		D6B285C22C0206170077359F /* UIViewRepresentableAL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B285C12C0206170077359F /* UIViewRepresentableAL.swift */; };
 		D6CF851E2BF38B7600CC9C4B /* CustomTabBarContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CF851D2BF38B7600CC9C4B /* CustomTabBarContainerView.swift */; };
 		D6CF85202BF392C400CC9C4B /* TabBarItemsPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CF851F2BF392C400CC9C4B /* TabBarItemsPreferenceKey.swift */; };
 		D6CF85222BF3A15200CC9C4B /* TabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CF85212BF3A15200CC9C4B /* TabBarItem.swift */; };
@@ -57,6 +58,7 @@
 		D6943C4D2BEFCD1D001D04E0 /* AnyTransitionAL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyTransitionAL.swift; sourceTree = "<group>"; };
 		D6943C4E2BEFCD1D001D04E0 /* MatchedGeometryEffect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchedGeometryEffect.swift; sourceTree = "<group>"; };
 		D6943C4F2BEFCD1D001D04E0 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D6B285C12C0206170077359F /* UIViewRepresentableAL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewRepresentableAL.swift; sourceTree = "<group>"; };
 		D6CF851D2BF38B7600CC9C4B /* CustomTabBarContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarContainerView.swift; sourceTree = "<group>"; };
 		D6CF851F2BF392C400CC9C4B /* TabBarItemsPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItemsPreferenceKey.swift; sourceTree = "<group>"; };
 		D6CF85212BF3A15200CC9C4B /* TabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItem.swift; sourceTree = "<group>"; };
@@ -92,6 +94,9 @@
 		D600F3AC2BE909040057C287 /* AdvancedL */ = {
 			isa = PBXGroup;
 			children = (
+				D600F3B12BE909050057C287 /* Assets.xcassets */,
+				D600F3B42BE909050057C287 /* Preview Content */,
+				D600F3B32BE909050057C287 /* AdvancedL.entitlements */,
 				D600F3AD2BE909040057C287 /* AdvancedLApp.swift */,
 				D6943C4D2BEFCD1D001D04E0 /* AnyTransitionAL.swift */,
 				D6943C4C2BEFCD1D001D04E0 /* ButtonStyleAL.swift */,
@@ -104,9 +109,7 @@
 				D6EFDB912BF24B5F00D9FDF5 /* PreferenceKey */,
 				D6611B142BF288C2006D9A38 /* CustomTabBar */,
 				D66386172BF3E727003C8F44 /* CustomNavBar */,
-				D600F3B12BE909050057C287 /* Assets.xcassets */,
-				D600F3B32BE909050057C287 /* AdvancedL.entitlements */,
-				D600F3B42BE909050057C287 /* Preview Content */,
+				D6B285C12C0206170077359F /* UIViewRepresentableAL.swift */,
 			);
 			path = AdvancedL;
 			sourceTree = "<group>";
@@ -181,7 +184,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1530;
-				LastUpgradeCheck = 1530;
+				LastUpgradeCheck = 1540;
 				TargetAttributes = {
 					D600F3A92BE909030057C287 = {
 						CreatedOnToolsVersion = 15.3;
@@ -235,6 +238,7 @@
 				D63AA2E42BEFDAB4006471F0 /* AnyTransitionAL.swift in Sources */,
 				D63AA2E52BEFDAB4006471F0 /* ButtonStyleAL.swift in Sources */,
 				D66386212BF3EF7E003C8F44 /* CustomNavLink.swift in Sources */,
+				D6B285C22C0206170077359F /* UIViewRepresentableAL.swift in Sources */,
 				D63AA2E62BEFDAB4006471F0 /* ContentView.swift in Sources */,
 				D6CF85202BF392C400CC9C4B /* TabBarItemsPreferenceKey.swift in Sources */,
 				D63AA2E72BEFDAB4006471F0 /* CustomShapesAL.swift in Sources */,
@@ -285,6 +289,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -346,6 +351,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -373,12 +379,12 @@
 				CODE_SIGN_ENTITLEMENTS = AdvancedL/AdvancedL.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"AdvancedL/Preview Content\"";
 				DEVELOPMENT_TEAM = A64NZ37MJD;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				EXCLUDED_ARCHS = arm64;
-				"EXCLUDED_ARCHS[sdk=*]" = arm64;
+				EXCLUDED_ARCHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
@@ -413,12 +419,12 @@
 				CODE_SIGN_ENTITLEMENTS = AdvancedL/AdvancedL.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"AdvancedL/Preview Content\"";
 				DEVELOPMENT_TEAM = A64NZ37MJD;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				EXCLUDED_ARCHS = arm64;
-				"EXCLUDED_ARCHS[sdk=*]" = arm64;
+				EXCLUDED_ARCHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
