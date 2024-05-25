@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		D600F3B22BE909050057C287 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D600F3B12BE909050057C287 /* Assets.xcassets */; };
 		D600F3B62BE909050057C287 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D600F3B52BE909050057C287 /* Preview Assets.xcassets */; };
+		D602FAD62C02245300B0C628 /* UIViewControllerRepresentableAL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D602FAD52C02245300B0C628 /* UIViewControllerRepresentableAL.swift */; };
 		D63AA2E32BEFDAB4006471F0 /* AdvancedLApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D600F3AD2BE909040057C287 /* AdvancedLApp.swift */; };
 		D63AA2E42BEFDAB4006471F0 /* AnyTransitionAL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6943C4D2BEFCD1D001D04E0 /* AnyTransitionAL.swift */; };
 		D63AA2E52BEFDAB4006471F0 /* ButtonStyleAL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6943C4C2BEFCD1D001D04E0 /* ButtonStyleAL.swift */; };
@@ -40,6 +41,7 @@
 		D600F3B12BE909050057C287 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D600F3B32BE909050057C287 /* AdvancedL.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AdvancedL.entitlements; sourceTree = "<group>"; };
 		D600F3B52BE909050057C287 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D602FAD52C02245300B0C628 /* UIViewControllerRepresentableAL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerRepresentableAL.swift; sourceTree = "<group>"; };
 		D63AA2D92BEFCE52006471F0 /* GenericsAL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericsAL.swift; sourceTree = "<group>"; };
 		D63AA3082BEFEFF6006471F0 /* ViewBuilderAL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilderAL.swift; sourceTree = "<group>"; };
 		D63F5EF82BF294B2009A3E01 /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 				D6611B142BF288C2006D9A38 /* CustomTabBar */,
 				D66386172BF3E727003C8F44 /* CustomNavBar */,
 				D6B285C12C0206170077359F /* UIViewRepresentableAL.swift */,
+				D602FAD52C02245300B0C628 /* UIViewControllerRepresentableAL.swift */,
 			);
 			path = AdvancedL;
 			sourceTree = "<group>";
@@ -240,6 +243,7 @@
 				D66386212BF3EF7E003C8F44 /* CustomNavLink.swift in Sources */,
 				D6B285C22C0206170077359F /* UIViewRepresentableAL.swift in Sources */,
 				D63AA2E62BEFDAB4006471F0 /* ContentView.swift in Sources */,
+				D602FAD62C02245300B0C628 /* UIViewControllerRepresentableAL.swift in Sources */,
 				D6CF85202BF392C400CC9C4B /* TabBarItemsPreferenceKey.swift in Sources */,
 				D63AA2E72BEFDAB4006471F0 /* CustomShapesAL.swift in Sources */,
 				D63AA2E82BEFDAB4006471F0 /* MatchedGeometryEffect.swift in Sources */,
